@@ -93,8 +93,8 @@ def fit_transit_by_transit(P, P_err, t0, t0_err, ecc, omega, GPmodel = 'QP', out
 
         it_folders = glob.glob(outpath+'/TESS*'+'/run_*/')
         
-        if len(it_folders) / len(oot_folders) < 10.: # Not enough successful injections -- don't fit
-            continue
+        #if len(it_folders) / len(oot_folders) < 10.: # Not enough successful injections -- don't fit
+        #    continue
         
         for it_folder in it_folders: 
             run_id = 0
