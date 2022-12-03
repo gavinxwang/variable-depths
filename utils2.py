@@ -255,7 +255,7 @@ def fit_transit_by_transit(P, P_err, t0, t0_err, ecc, omega, GPmodel = 'QP', out
 
         print('Detected',len(idx),'transits')
         
-        os.rename(it_folder, it_folder + '_' + str(len(idx))) # Append estimate of total number of transits to folders
+        # os.rename(it_folder, it_folder + '_' + str(len(idx))) # Append estimate of total number of transits to folders
         
         for i in idx:
             tt, ff, fferr = {}, {}, {}
