@@ -10,4 +10,4 @@ Run scripts in following order:
 
 ## Results
 
-The transit depths over time for each target are stored in Transit_Depths_Gavin_Espinoza.zip.
+The transit depths over time for each target are stored in Transit_Depths_Wang_Espinoza.zip.
